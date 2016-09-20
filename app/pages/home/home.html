@@ -1,14 +1,32 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-header>
+
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title>Home</ion-title>
   </ion-navbar>
+
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+<ion-content>
+  <ion-item-group>
+    <ion-item-divider light>A</ion-item-divider>
+    <ion-item (click)="showDemo('actionSheets')">Action Sheet</ion-item>
+    <ion-item (click)="showDemo('alert')">Alert</ion-item>
+  </ion-item-group>
+  <ion-item-group>
+    <ion-item-divider light>B</ion-item-divider>
+    <ion-item>Badges</ion-item>
+    <ion-item>Buttons</ion-item>
+  </ion-item-group>
+  <ion-item-group>
+    <ion-item-divider light>C</ion-item-divider>
+    <ion-item>Cards</ion-item>
+    <ion-item>Checkbox</ion-item>
+  </ion-item-group>
 </ion-content>
