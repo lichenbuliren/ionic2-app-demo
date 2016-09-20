@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import { ActionSheetPage } from '../action-sheet/action-sheet';
-import { AlertPage } from '../alert/alert';
+import { ActionSheetsPage } from '../action-sheets/action-sheets';
+import { AlertsPage } from '../alerts/alerts';
+import { BadgesPage } from '../badges/badges';
 
 /*
   Generated class for the HomePage page.
@@ -16,8 +17,9 @@ import { AlertPage } from '../alert/alert';
 export class HomePage {
 
   private pageConfig: Object = {
-    'actionSheet': ActionSheetPage,
-    'alert': AlertPage
+    'actionSheets': ActionSheetsPage,
+    'alerts': AlertsPage,
+    'badges': BadgesPage
   }
 
   constructor(private navCtrl: NavController) {

@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar primary>
     <ion-title>Home</ion-title>
   </ion-navbar>
 
@@ -16,12 +16,12 @@
 <ion-content>
   <ion-item-group>
     <ion-item-divider light>A</ion-item-divider>
-    <ion-item (click)="showDemo('actionSheets')">Action Sheet</ion-item>
-    <ion-item (click)="showDemo('alert')">Alert</ion-item>
+    <ion-item (click)="showDemo('actionSheets')">Action Sheets</ion-item>
+    <ion-item (click)="showDemo('alerts')">Alerts</ion-item>
   </ion-item-group>
   <ion-item-group>
     <ion-item-divider light>B</ion-item-divider>
-    <ion-item>Badges</ion-item>
+    <ion-item (click)="showDemo('badges')">Badges</ion-item>
     <ion-item>Buttons</ion-item>
   </ion-item-group>
   <ion-item-group>

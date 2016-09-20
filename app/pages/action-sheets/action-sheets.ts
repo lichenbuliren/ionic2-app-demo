@@ -8,9 +8,9 @@ import { ActionSheetController, NavController, Platform} from 'ionic-angular';
   Ionic pages and navigation.
 */
 @Component({
-  templateUrl: 'build/pages/action-sheets/action-sheet.html',
+  templateUrl: 'build/pages/action-sheets/action-sheets.html',
 })
-export class ActionSheetPage {
+export class ActionSheetsPage {
 
   private title: string = 'Action Sheets';
 

@@ -6,7 +6,7 @@
 -->
 <ion-header>
 
-  <ion-navbar>
+  <ion-navbar primary>
     <ion-title>Alert</ion-title>
   </ion-navbar>
 
@@ -14,5 +14,6 @@
 
 
 <ion-content padding>
-
+  <button block (click)="openBaseAlert()">Show Base Alert</button>
+  <button block (click)="openPromptAlert()">Show Prompt Alert</button>
 </ion-content>
